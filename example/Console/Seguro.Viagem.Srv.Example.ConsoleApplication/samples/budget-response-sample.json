@@ -1,0 +1,4396 @@
+﻿[
+  {
+    "nome_plano": "Brasil",
+    "tipo_de_seguro": "padrao",
+    "apelido": "vital-card_brasil",
+    "preco_em_reais": "58.0",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/31/preview/qbe.png",
+    "seguradora_nome": "Qbe",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/31/preview/vital-card-logo.png",
+    "assistencia_nome": "Vital Card",
+    "idade_minima": 0,
+    "idade_maxima": 100,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Assistência Médica Acidente e Doença (por evento)",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Assistência Médica para Doença Preexistente Crônica (até)",
+        "modificador": "BRL",
+        "valor": "1500.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Assistência farmacêutica (por evento)",
+        "modificador": "BRL",
+        "valor": "100.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Assistência Odontológica (por evento)",
+        "modificador": "BRL",
+        "valor": "100.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Hospedagem Após Alta Hospitalar ",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Estadia de familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menores",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-ret-ant",
+        "nome": "Regresso Antecipado por Falecimento do Parente de 1º Grau",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência Legal por Acidente de Trânsito",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Transferência do Pagamento de Fiança",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação Médica (até)",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Remoção e Repatriação Inter Hospitalar",
+        "modificador": "BRL",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-localiz",
+        "nome": " Auxílio na Localização de Bagagem ",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Transferência de Fundos",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Transferência de Fundos",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Orientação em Caso de Perda de Documentos",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Informações de Concierge",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Invalidez permanente por acidente",
+        "modificador": "BRL",
+        "valor": "50000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento de Viagem - PLUS REASON",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Traslado ou Substituição de Executivo por Emergências",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": "Despesas por Atraso de Voo",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Envio de Acompanhante",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      { },
+      { },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Morte acidental",
+        "modificador": "BRL",
+        "valor": "50000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Extravio de Bagagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Repatriação Funerária (até)",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Hospedagem por Catástrofe Climática",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Despesas de Atraso de Bagagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { }
+    ]
+  },
+  {
+    "nome_plano": "Nacional Plus",
+    "tipo_de_seguro": "padrao",
+    "apelido": "gta_nacional-plus",
+    "preco_em_reais": "17.0",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/43/preview/qbe.png",
+    "seguradora_nome": "Qbe",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/43/preview/gta.png",
+    "assistencia_nome": "GTA",
+    "idade_minima": 0,
+    "idade_maxima": 80,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Assistência Médica para Pré-existência",
+        "modificador": "BRL",
+        "valor": "150.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Assistência farmacêutica (por evento)",
+        "modificador": "BRL",
+        "valor": "100.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Assistência odontológica",
+        "modificador": "BRL",
+        "valor": "150.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Convalescença em Hotel",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Acompanhamento Familiar (hospedagem)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menores",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência jurídica",
+        "modificador": "BRL",
+        "valor": "2000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Assistência de Fiança Judicial",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação sanitária",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Traslados Gratuitos em Emergência",
+        "modificador": "BRL",
+        "valor": "1500.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-localiz",
+        "nome": "Auxilio na localização de bagagem extraviada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Orientação em caso de perda de documentos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Concierge",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Seguro por Invalidez Permanente",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento de viagem",
+        "modificador": "BRL",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Traslados de executivos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": " Gastos por Atraso ou Cancelamento de Vôo",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Passagem Aérea de ida e volta para um familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-esporte",
+        "nome": "Prática de esportes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Seguro de Vida por Morte Acidental",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Seguro de Bagagem",
+        "modificador": "BRL",
+        "valor": "200.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Repatriação por Morte ",
+        "modificador": "BRL",
+        "valor": "1500.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Assistência Médica por Doença e Acidente (por evento)",
+        "modificador": "BRL",
+        "valor": "1500.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-fisiote",
+        "nome": "Fisioterapia (prescrição médica) ",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-estrago",
+        "nome": "Reembolso de gastos por reparo de mala danificada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Reembolso de gastos por demora de bagagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "o-repouso",
+        "nome": "Extensão de Internação Hospitalar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Interrupção De Viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Orientação e direcionamento a rede de atendimento médico.",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Disponibilizar a Central Operativa 24 horas.\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "b-extravi",
+        "nome": "Orientação no caso de bagagens extraviadas",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "f-juridic",
+        "nome": "Orientação para transferencia de pagamento de fiança judicial",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-per-doc",
+        "nome": "Orientação nos procedimentos para reembolso de despesas",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Envio da Agenda Cultural",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva em Restaurantes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Busca de ingressos\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Marcação de Assento nos vôos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva e indicação de hospedagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Assessoria para experiências",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Informações sobre destino (vacinas, vistos, documentação)\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-aci",
+        "nome": "Auxilio e organização de roteiro de viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Suporte ao executivo em viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Organização de traslado para consulta",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Serviços Não Usufruído Por Interrupção De Viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva e compra de passagem aérea",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "a-med-enf",
+        "nome": "Check-Up Médico",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      }
+    ]
+  },
+  {
+    "nome_plano": "Nacional Vip",
+    "tipo_de_seguro": "padrao",
+    "apelido": "gta_nacional-vip",
+    "preco_em_reais": "23.0",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/43/preview/qbe.png",
+    "seguradora_nome": "Qbe",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/43/preview/gta.png",
+    "assistencia_nome": "GTA",
+    "idade_minima": 0,
+    "idade_maxima": 80,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Assistência Médica para Pré-existência",
+        "modificador": "BRL",
+        "valor": "200.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Assistência farmacêutica (por evento)",
+        "modificador": "BRL",
+        "valor": "150.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Assistência odontológica",
+        "modificador": "BRL",
+        "valor": "250.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Convalescença em Hotel",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Acompanhamento Familiar (hospedagem)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menores",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência jurídica",
+        "modificador": "BRL",
+        "valor": "2000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Assistência de Fiança Judicial",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação sanitária",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Traslados Gratuitos em Emergência",
+        "modificador": "BRL",
+        "valor": "2000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-localiz",
+        "nome": "Auxilio na localização de bagagem extraviada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Orientação em caso de perda de documentos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Concierge",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Seguro por Invalidez Permanente",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento de viagem",
+        "modificador": "BRL",
+        "valor": "400.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Traslados de executivos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": " Gastos por Atraso ou Cancelamento de Vôo",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Passagem Aérea de ida e volta para um familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-esporte",
+        "nome": "Prática de esportes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Seguro de Vida por Morte Acidental",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Seguro de Bagagem",
+        "modificador": "BRL",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Repatriação por Morte ",
+        "modificador": "BRL",
+        "valor": "2000.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Assistência Médica por Doença e Acidente (por evento)",
+        "modificador": "BRL",
+        "valor": "2000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-fisiote",
+        "nome": "Fisioterapia (prescrição médica) ",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-estrago",
+        "nome": "Reembolso de gastos por reparo de mala danificada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Reembolso de gastos por demora de bagagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "o-repouso",
+        "nome": "Extensão de Internação Hospitalar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Interrupção De Viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Orientação e direcionamento a rede de atendimento médico.",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Disponibilizar a Central Operativa 24 horas.\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "b-extravi",
+        "nome": "Orientação no caso de bagagens extraviadas",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "f-juridic",
+        "nome": "Orientação para transferencia de pagamento de fiança judicial",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-per-doc",
+        "nome": "Orientação nos procedimentos para reembolso de despesas",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Envio da Agenda Cultural",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva em Restaurantes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Busca de ingressos\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Marcação de Assento nos vôos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva e indicação de hospedagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Assessoria para experiências",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Informações sobre destino (vacinas, vistos, documentação)\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-aci",
+        "nome": "Auxilio e organização de roteiro de viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Suporte ao executivo em viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Organização de traslado para consulta",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Serviços Não Usufruído Por Interrupção De Viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva e compra de passagem aérea",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "a-med-enf",
+        "nome": "Check-Up Médico",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      }
+    ]
+  },
+  {
+    "nome_plano": "Nacional Master",
+    "tipo_de_seguro": "padrao",
+    "apelido": "gta_nacional-master",
+    "preco_em_reais": "28.0",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/43/preview/qbe.png",
+    "seguradora_nome": "Qbe",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/43/preview/gta.png",
+    "assistencia_nome": "GTA",
+    "idade_minima": 0,
+    "idade_maxima": 80,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Assistência Médica para Pré-existência",
+        "modificador": "BRL",
+        "valor": "250.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Assistência farmacêutica (por evento)",
+        "modificador": "BRL",
+        "valor": "250.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Assistência odontológica",
+        "modificador": "BRL",
+        "valor": "250.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Convalescença em Hotel",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Acompanhamento Familiar (hospedagem)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menores",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência jurídica",
+        "modificador": "BRL",
+        "valor": "2500.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Assistência de Fiança Judicial",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação sanitária",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Traslados Gratuitos em Emergência",
+        "modificador": "BRL",
+        "valor": "2500.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-localiz",
+        "nome": "Auxilio na localização de bagagem extraviada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Orientação em caso de perda de documentos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Concierge",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Seguro por Invalidez Permanente",
+        "modificador": "BRL",
+        "valor": "8000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento de viagem",
+        "modificador": "BRL",
+        "valor": "500.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Traslados de executivos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": " Gastos por Atraso ou Cancelamento de Vôo",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Passagem Aérea de ida e volta para um familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-esporte",
+        "nome": "Prática de esportes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Seguro de Vida por Morte Acidental",
+        "modificador": "BRL",
+        "valor": "8000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Seguro de Bagagem",
+        "modificador": "BRL",
+        "valor": "400.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Repatriação por Morte ",
+        "modificador": "BRL",
+        "valor": "2000.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Assistência Médica por Doença e Acidente (por evento)",
+        "modificador": "BRL",
+        "valor": "2500.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-fisiote",
+        "nome": "Fisioterapia (prescrição médica) ",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-estrago",
+        "nome": "Reembolso de gastos por reparo de mala danificada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Reembolso de gastos por demora de bagagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "o-repouso",
+        "nome": "Extensão de Internação Hospitalar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Interrupção De Viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Orientação e direcionamento a rede de atendimento médico.",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Disponibilizar a Central Operativa 24 horas.\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "b-extravi",
+        "nome": "Orientação no caso de bagagens extraviadas",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "f-juridic",
+        "nome": "Orientação para transferencia de pagamento de fiança judicial",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-per-doc",
+        "nome": "Orientação nos procedimentos para reembolso de despesas",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Envio da Agenda Cultural",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva em Restaurantes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Busca de ingressos\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Marcação de Assento nos vôos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva e indicação de hospedagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Assessoria para experiências",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Informações sobre destino (vacinas, vistos, documentação)\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-aci",
+        "nome": "Auxilio e organização de roteiro de viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Suporte ao executivo em viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Organização de traslado para consulta",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Serviços Não Usufruído Por Interrupção De Viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva e compra de passagem aérea",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "a-med-enf",
+        "nome": "Check-Up Médico",
+        "modificador": "0",
+        "valor": "0.0"
+      }
+    ]
+  },
+  {
+    "nome_plano": "Nacional Executivo",
+    "tipo_de_seguro": "padrao",
+    "apelido": "gta_nacional-executivo",
+    "preco_em_reais": "36.0",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/43/preview/qbe.png",
+    "seguradora_nome": "Qbe",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/43/preview/gta.png",
+    "assistencia_nome": "GTA",
+    "idade_minima": 0,
+    "idade_maxima": 80,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Assistência Médica para Pré-existência",
+        "modificador": "BRL",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Assistência farmacêutica (por evento)",
+        "modificador": "BRL",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Assistência odontológica",
+        "modificador": "BRL",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Convalescença em Hotel",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Acompanhamento Familiar (hospedagem)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menores",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência jurídica",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Assistência de Fiança Judicial",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação sanitária",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Traslados Gratuitos em Emergência",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-localiz",
+        "nome": "Auxilio na localização de bagagem extraviada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Orientação em caso de perda de documentos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Concierge",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Seguro por Invalidez Permanente",
+        "modificador": "BRL",
+        "valor": "15000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento de viagem",
+        "modificador": "BRL",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Traslados de executivos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": " Gastos por Atraso ou Cancelamento de Vôo",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Passagem Aérea de ida e volta para um familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-esporte",
+        "nome": "Prática de esportes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Seguro de Vida por Morte Acidental",
+        "modificador": "BRL",
+        "valor": "15000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Seguro de Bagagem",
+        "modificador": "BRL",
+        "valor": "400.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Repatriação por Morte ",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Assistência Médica por Doença e Acidente (por evento)",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-fisiote",
+        "nome": "Fisioterapia (prescrição médica) ",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-estrago",
+        "nome": "Reembolso de gastos por reparo de mala danificada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Reembolso de gastos por demora de bagagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "o-repouso",
+        "nome": "Extensão de Internação Hospitalar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Interrupção De Viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Orientação e direcionamento a rede de atendimento médico.",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Disponibilizar a Central Operativa 24 horas.\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "b-extravi",
+        "nome": "Orientação no caso de bagagens extraviadas",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "f-juridic",
+        "nome": "Orientação para transferencia de pagamento de fiança judicial",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-per-doc",
+        "nome": "Orientação nos procedimentos para reembolso de despesas",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Envio da Agenda Cultural",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva em Restaurantes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Busca de ingressos\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Marcação de Assento nos vôos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva e indicação de hospedagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Assessoria para experiências",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Informações sobre destino (vacinas, vistos, documentação)\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-aci",
+        "nome": "Auxilio e organização de roteiro de viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Suporte ao executivo em viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Organização de traslado para consulta",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Serviços Não Usufruído Por Interrupção De Viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva e compra de passagem aérea",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "a-med-enf",
+        "nome": "Check-Up Médico",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      }
+    ]
+  },
+  {
+    "nome_plano": "Nacional Melhor Idade",
+    "tipo_de_seguro": "padrao",
+    "apelido": "gta_nacional-melhor-idade",
+    "preco_em_reais": "38.0",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/43/preview/qbe.png",
+    "seguradora_nome": "Qbe",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/43/preview/gta.png",
+    "assistencia_nome": "GTA",
+    "idade_minima": 0,
+    "idade_maxima": 80,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Assistência Médica para Pré-existência",
+        "modificador": "BRL",
+        "valor": "600.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Assistência farmacêutica (por evento)",
+        "modificador": "BRL",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Assistência odontológica",
+        "modificador": "BRL",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Convalescença em Hotel",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Acompanhamento Familiar (hospedagem)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menores",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência jurídica",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Assistência de Fiança Judicial",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação sanitária",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Traslados Gratuitos em Emergência",
+        "modificador": "BRL",
+        "valor": "6000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-localiz",
+        "nome": "Auxilio na localização de bagagem extraviada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Orientação em caso de perda de documentos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Concierge",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Seguro por Invalidez Permanente",
+        "modificador": "BRL",
+        "valor": "15000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento de viagem",
+        "modificador": "BRL",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Traslados de executivos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": " Gastos por Atraso ou Cancelamento de Vôo",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Passagem Aérea de ida e volta para um familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-esporte",
+        "nome": "Prática de esportes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Seguro de Vida por Morte Acidental",
+        "modificador": "BRL",
+        "valor": "15000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Seguro de Bagagem",
+        "modificador": "BRL",
+        "valor": "500.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Repatriação por Morte ",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Assistência Médica por Doença e Acidente (por evento)",
+        "modificador": "BRL",
+        "valor": "6000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-fisiote",
+        "nome": "Fisioterapia (prescrição médica) ",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-estrago",
+        "nome": "Reembolso de gastos por reparo de mala danificada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Reembolso de gastos por demora de bagagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "o-repouso",
+        "nome": "Extensão de Internação Hospitalar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Interrupção De Viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Orientação e direcionamento a rede de atendimento médico.",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Disponibilizar a Central Operativa 24 horas.\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "b-extravi",
+        "nome": "Orientação no caso de bagagens extraviadas",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "f-juridic",
+        "nome": "Orientação para transferencia de pagamento de fiança judicial",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-per-doc",
+        "nome": "Orientação nos procedimentos para reembolso de despesas",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Envio da Agenda Cultural",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva em Restaurantes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Busca de ingressos\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Marcação de Assento nos vôos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva e indicação de hospedagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Assessoria para experiências",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Informações sobre destino (vacinas, vistos, documentação)\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-aci",
+        "nome": "Auxilio e organização de roteiro de viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Suporte ao executivo em viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Organização de traslado para consulta",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Serviços Não Usufruído Por Interrupção De Viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva e compra de passagem aérea",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "a-med-enf",
+        "nome": "Check-Up Médico",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      }
+    ]
+  },
+  {
+    "nome_plano": "Brasil Plus",
+    "tipo_de_seguro": "padrao",
+    "apelido": "vital-card_brasil-plus",
+    "preco_em_reais": "64.0",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/31/preview/qbe.png",
+    "seguradora_nome": "Qbe",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/31/preview/vital-card-logo.png",
+    "assistencia_nome": "Vital Card",
+    "idade_minima": 0,
+    "idade_maxima": 79,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Assistência Médica Acidente e Doença (por evento)",
+        "modificador": "BRL",
+        "valor": "10000.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Assistência Médica para Doença Preexistente Crônica (até)",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Assistência farmacêutica (por evento)",
+        "modificador": "BRL",
+        "valor": "250.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Assistência Odontológica (por evento)",
+        "modificador": "BRL",
+        "valor": "250.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Hospedagem Após Alta Hospitalar ",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Estadia de familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menores",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-ret-ant",
+        "nome": "Regresso Antecipado por Falecimento do Parente de 1º Grau",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência Legal por Acidente de Trânsito",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Transferência do Pagamento de Fiança",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação Médica (até)",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Remoção e Repatriação Inter Hospitalar",
+        "modificador": "BRL",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-localiz",
+        "nome": " Auxílio na Localização de Bagagem ",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Transferência de Fundos",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Transferência de Fundos",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Orientação em Caso de Perda de Documentos",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Informações de Concierge",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Invalidez permanente por acidente",
+        "modificador": "BRL",
+        "valor": "50000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento de Viagem - PLUS REASON",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Traslado ou Substituição de Executivo por Emergências",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": "Despesas por Atraso de Voo",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Envio de Acompanhante",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      { },
+      { },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Morte acidental",
+        "modificador": "BRL",
+        "valor": "50000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Extravio de Bagagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Repatriação Funerária (até)",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Hospedagem por Catástrofe Climática",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Despesas de Atraso de Bagagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { }
+    ]
+  },
+  {
+    "nome_plano": "Receptivo Bronze",
+    "tipo_de_seguro": "receptivo",
+    "apelido": "gta_receptivo-bronze",
+    "preco_em_reais": "165.6",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/43/preview/qbe.png",
+    "seguradora_nome": "Qbe",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/43/preview/gta.png",
+    "assistencia_nome": "GTA",
+    "idade_minima": 0,
+    "idade_maxima": 75,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Assistência Médica para Pré-existência",
+        "modificador": "USD",
+        "valor": "700.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Assistência farmacêutica (por evento)",
+        "modificador": "USD",
+        "valor": "400.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Assistência odontológica",
+        "modificador": "USD",
+        "valor": "500.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Convalescença em Hotel",
+        "modificador": "USD",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Acompanhamento Familiar (hospedagem)",
+        "modificador": "USD",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menores",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência jurídica",
+        "modificador": "USD",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Assistência de Fiança Judicial",
+        "modificador": "USD",
+        "valor": "6000.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação sanitária",
+        "modificador": "USD",
+        "valor": "10000.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Traslados Gratuitos em Emergência",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-localiz",
+        "nome": "Auxilio na localização de bagagem extraviada",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Orientação em caso de perda de documentos",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Concierge",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Seguro por Invalidez Permanente",
+        "modificador": "BRL",
+        "valor": "50000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento de viagem",
+        "modificador": "USD",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Traslados de executivos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": " Gastos por Atraso ou Cancelamento de Vôo",
+        "modificador": "USD",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Passagem Aérea de ida e volta para um familiar",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-esporte",
+        "nome": "Prática de esportes",
+        "modificador": "USD",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Seguro de Vida por Morte Acidental",
+        "modificador": "BRL",
+        "valor": "50000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Seguro de Bagagem",
+        "modificador": "USD",
+        "valor": "450.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Repatriação por Morte ",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Assistência Médica por Doença e Acidente (por evento)",
+        "modificador": "USD",
+        "valor": "10000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-fisiote",
+        "nome": "Fisioterapia (prescrição médica) ",
+        "modificador": "USD",
+        "valor": "100.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-estrago",
+        "nome": "Reembolso de gastos por reparo de mala danificada",
+        "modificador": "USD",
+        "valor": "80.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Reembolso de gastos por demora de bagagem",
+        "modificador": "USD",
+        "valor": "300.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "o-repouso",
+        "nome": "Extensão de Internação Hospitalar",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Interrupção De Viagem",
+        "modificador": "USD",
+        "valor": "400.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Orientação e direcionamento a rede de atendimento médico.",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Disponibilizar a Central Operativa 24 horas.\t",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "b-extravi",
+        "nome": "Orientação no caso de bagagens extraviadas",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "f-juridic",
+        "nome": "Orientação para transferencia de pagamento de fiança judicial",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-per-doc",
+        "nome": "Orientação nos procedimentos para reembolso de despesas",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Envio da Agenda Cultural",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva em Restaurantes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Busca de ingressos\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Marcação de Assento nos vôos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva e indicação de hospedagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Assessoria para experiências",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Informações sobre destino (vacinas, vistos, documentação)\t",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-aci",
+        "nome": "Auxilio e organização de roteiro de viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Suporte ao executivo em viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Organização de traslado para consulta",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Serviços Não Usufruído Por Interrupção De Viagem",
+        "modificador": "USD",
+        "valor": "100.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Reserva e compra de passagem aérea",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "a-med-enf",
+        "nome": "Check-Up Médico",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      }
+    ]
+  },
+  {
+    "nome_plano": "Nacional",
+    "tipo_de_seguro": "padrao",
+    "apelido": "assist-med_nacional_MTg4NCAxMzg0MTg0NTQ3LjA",
+    "preco_em_reais": "52.99",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/313/preview/yasuda3.png",
+    "seguradora_nome": "Yasuda",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/313/preview/assistmed.png",
+    "assistencia_nome": "Assist Med",
+    "idade_minima": 0,
+    "idade_maxima": 69,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Despesa médica em caso de acidente ou doença",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Enfermidades crônicas ou pré existentes",
+        "modificador": "BRL",
+        "valor": "200.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Medicamentos receitados",
+        "modificador": "BRL",
+        "valor": "150.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Odontologia de emergência",
+        "modificador": "BRL",
+        "valor": "150.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Despesas em hotel por convalescença",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Estadia de familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menores",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-ret-ant",
+        "nome": "Regresso antecipado por roubo em domicílio",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência jurídica por acidente de trânsito",
+        "modificador": "BRL",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Remessa de valores fiança acidente trânsito",
+        "modificador": "BRL",
+        "valor": "6000.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação sanitária",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Traslado em caso de acidente ou doença",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-localiz",
+        "nome": "Localização de bagagem",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Assistência financeira",
+        "modificador": "BRL",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Assistência financeira",
+        "modificador": "USD",
+        "valor": "6000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Assistência extravio de documento",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Concierge",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Invalidez permanente por acidente",
+        "modificador": "BRL",
+        "valor": "20000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento de viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Substituição de executivos",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": "Despesas por voo atrasado ou cancelado (mínimo 6 horas)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Translado de um familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-esporte",
+        "nome": "Esportes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Busca e salvamento",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Morte acidental",
+        "modificador": "BRL",
+        "valor": "20000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Extravio bagagem linha aérea ou cruzeiro",
+        "modificador": "BRL",
+        "valor": "500.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Repatriação funerária",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-capital",
+        "nome": "Capitalização",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Assistência médica por doença",
+        "modificador": "USD",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de regresso antecipado",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-fisiote",
+        "nome": "Fisioterapia",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-estrago",
+        "nome": "Bagagem danificada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Compensação por atraso de bagagem (mínimo 6 horas)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-gestaca",
+        "nome": "Complicações na gestação",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-aci",
+        "nome": "Aluguel de notebook",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-aci",
+        "nome": "Interrupção de viagem por catástrofe",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-aci",
+        "nome": "Linha de consultas",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-aci",
+        "nome": "Proteção de compra",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-aci",
+        "nome": "Repatriação administrativa",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-aci",
+        "nome": "Viagem de retorno falecimento familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      }
+    ]
+  },
+  {
+    "nome_plano": "Nacional",
+    "tipo_de_seguro": "padrao",
+    "apelido": "travel-ace_nacional_MTkyNiAxMzkzNTA4MDUzLjA",
+    "preco_em_reais": "55.0",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/38/preview/qbe.png",
+    "seguradora_nome": "Qbe",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/38/preview/travelace.png",
+    "assistencia_nome": "Travel Ace",
+    "idade_minima": 0,
+    "idade_maxima": 70,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Despesas médico-hospitalares (por evento) ",
+        "modificador": "BRL",
+        "valor": "10000.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Gastos médicos com doença pré-existente ",
+        "modificador": "BOOL",
+        "valor": "100.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Despesas Farmacêuticas",
+        "modificador": "BRL",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Despesas odontológicas em viagem (DO em viagem ao  exterior)",
+        "modificador": "BRL",
+        "valor": "200.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Reserva de hotel por convalescença",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Reserva para acompanhante em caso de internação",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menor",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-ret-ant",
+        "nome": "Retorno Antecipado por problemas na residência",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência Jurídica",
+        "modificador": "BRL",
+        "valor": "500.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Regresso sanitário",
+        "modificador": "BRL",
+        "valor": "6500.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Traslado médico",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-localiz",
+        "nome": "Assistência na localização de bagagem",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Assistência financeira",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Assistência financeira",
+        "modificador": "BRL",
+        "valor": "4000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Orientação em caso de perda de documentos",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Linhas de consultas 24hs",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Invalidez permanente total ou parcial por acidente",
+        "modificador": "BRL",
+        "valor": "10000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento e/ou interrupção de viagem",
+        "modificador": "BRL",
+        "valor": "2000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Substituição de executivos",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Morte acidental em viagem",
+        "modificador": "BRL",
+        "valor": "10000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Bagagem ",
+        "modificador": "BRL",
+        "valor": "1500.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Traslado de corpo",
+        "modificador": "BRL",
+        "valor": "6500.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Regresso Antecipado",
+        "modificador": "BRL",
+        "valor": "1000.0"
+      },
+      { },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-estrago",
+        "nome": "Danos à Mala",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Gastos Derivados por atraso de bagagem",
+        "modificador": "BRL",
+        "valor": "200.0"
+      },
+      { }
+    ]
+  },
+  {
+    "nome_plano": "Brasil Vip",
+    "tipo_de_seguro": "padrao",
+    "apelido": "vital-card_brasil-vip",
+    "preco_em_reais": "69.0",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/31/preview/qbe.png",
+    "seguradora_nome": "Qbe",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/31/preview/vital-card-logo.png",
+    "assistencia_nome": "Vital Card",
+    "idade_minima": 0,
+    "idade_maxima": 75,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Assistência Médica Acidente e Doença (por evento)",
+        "modificador": "BRL",
+        "valor": "30000.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Assistência Médica para Doença Preexistente Crônica (até)",
+        "modificador": "BRL",
+        "valor": "9000.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Assistência farmacêutica (por evento)",
+        "modificador": "BRL",
+        "valor": "250.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Assistência Odontológica (por evento)",
+        "modificador": "BRL",
+        "valor": "250.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Hospedagem Após Alta Hospitalar ",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Estadia de familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menores",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-ret-ant",
+        "nome": "Regresso Antecipado por Falecimento do Parente de 1º Grau",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência Legal por Acidente de Trânsito",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Transferência do Pagamento de Fiança",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação Médica (até)",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Remoção e Repatriação Inter Hospitalar",
+        "modificador": "BRL",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-localiz",
+        "nome": " Auxílio na Localização de Bagagem ",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Transferência de Fundos",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Transferência de Fundos",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Orientação em Caso de Perda de Documentos",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-concier",
+        "nome": "Informações de Concierge",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Invalidez permanente por acidente",
+        "modificador": "BRL",
+        "valor": "50000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento de Viagem - PLUS REASON",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Traslado ou Substituição de Executivo por Emergências",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": "Despesas por Atraso de Voo",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Envio de Acompanhante",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      { },
+      { },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Morte acidental",
+        "modificador": "BRL",
+        "valor": "50000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Extravio de Bagagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Repatriação Funerária (até)",
+        "modificador": "BRL",
+        "valor": "5000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Hospedagem por Catástrofe Climática",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Despesas de Atraso de Bagagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { }
+    ]
+  },
+  {
+    "nome_plano": "Plano Nacional",
+    "tipo_de_seguro": "padrao",
+    "apelido": "affinity_plano-nacional_MjI5OSAxNDE3Nzk4MjMwLjA",
+    "preco_em_reais": "119.99",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/325/preview/yasuda3.png",
+    "seguradora_nome": "Yasuda",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/325/preview/logoaffinity.png",
+    "assistencia_nome": "Affinity",
+    "idade_minima": 0,
+    "idade_maxima": 80,
+    "propriedades": [
+      { },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": " Despesas médicas doença preexistente ou crônica (Emergência e Urgência)",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Despesas Farmaceuticas (por evento)",
+        "modificador": "BRL",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Despesas Odontológicas",
+        "modificador": "BRL",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Reembolso de Gastos por Convalescença em Hotel (Dia)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Acompanhamento Familiar (Hotel)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menor ou idoso",
+        "modificador": "BRL",
+        "valor": "800.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-ret-ant",
+        "nome": "Regresso antecipado por sinistro, roubo em domicilio ou empresa",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência Juridica em caso de acidente de transito",
+        "modificador": "BRL",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Regresso Sanitário",
+        "modificador": "BRL",
+        "valor": "6000.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Traslado médico",
+        "modificador": "BRL",
+        "valor": "500.0"
+      },
+      { },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Remessa de Valores para fiança judicial em caso de acidente de trânsito",
+        "modificador": "BRL",
+        "valor": "10000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Remessa de Valores para fiança judicial em caso de acidente de trânsito",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Orientação em caso de perda de documentos",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Invalidez permanente por acidente",
+        "modificador": "BRL",
+        "valor": "15000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Seguro de Cancelamento de viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": "Reembolso de Gastos por atraso e cancelamento de Voo",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Acompanhamento Familiar (ticket aéreo)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-esporte",
+        "nome": "Despesas médicas por Esportes (Lazer)",
+        "modificador": "BRL",
+        "valor": "600.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Morte acidental",
+        "modificador": "BRL",
+        "valor": "15000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Seguro de Bagagem Extraviada",
+        "modificador": "BRL",
+        "valor": "600.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Traslado de Corpo ",
+        "modificador": "BRL",
+        "valor": "6000.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Despesas médicas em caso de enfermidade (Por evento)",
+        "modificador": "BRL",
+        "valor": "6000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BRL",
+        "valor": "800.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-fisiote",
+        "nome": "Fisioterapia (prescrição médica)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Reembolso de gastos por demora de bagagem extraviada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Extensão de Internação Hospitalar",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação Administrative",
+        "modificador": "BRL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Interrupção De Viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      }
+    ]
+  },
+  {
+    "nome_plano": "Plano Nacional 18",
+    "tipo_de_seguro": "padrao",
+    "apelido": "affinity_plano-nacional-18_MjMwMCAxNDE3Nzk4MjMwLjA",
+    "preco_em_reais": "222.34",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/325/preview/yasuda3.png",
+    "seguradora_nome": "Yasuda",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/325/preview/logoaffinity.png",
+    "assistencia_nome": "Affinity",
+    "idade_minima": 0,
+    "idade_maxima": 80,
+    "propriedades": [
+      { },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": " Despesas médicas doença preexistente ou crônica (Emergência e Urgência)",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Despesas Farmaceuticas (por evento)",
+        "modificador": "BRL",
+        "valor": "400.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Despesas Odontológicas",
+        "modificador": "BRL",
+        "valor": "350.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Reembolso de Gastos por Convalescença em Hotel (Dia)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Acompanhamento Familiar (Hotel)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Acompanhamento de menor ou idoso",
+        "modificador": "BRL",
+        "valor": "800.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-ret-ant",
+        "nome": "Regresso antecipado por sinistro, roubo em domicilio ou empresa",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência Juridica em caso de acidente de transito",
+        "modificador": "BRL",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Regresso Sanitário",
+        "modificador": "BRL",
+        "valor": "18000.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Traslado médico",
+        "modificador": "BRL",
+        "valor": "600.0"
+      },
+      { },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Remessa de Valores para fiança judicial em caso de acidente de trânsito",
+        "modificador": "BRL",
+        "valor": "10000.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Remessa de Valores para fiança judicial em caso de acidente de trânsito",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-per-doc",
+        "nome": "Orientação em caso de perda de documentos",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Invalidez permanente por acidente",
+        "modificador": "BRL",
+        "valor": "15000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Seguro de Cancelamento de viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": "Reembolso de Gastos por atraso e cancelamento de Voo",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Acompanhamento Familiar (ticket aéreo)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-esporte",
+        "nome": "Despesas médicas por Esportes (Lazer)",
+        "modificador": "BRL",
+        "valor": "1800.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Morte acidental",
+        "modificador": "BRL",
+        "valor": "15000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Seguro de Bagagem Extraviada",
+        "modificador": "BRL",
+        "valor": "600.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Traslado de Corpo ",
+        "modificador": "BRL",
+        "valor": "18000.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Despesas médicas em caso de enfermidade (Por evento)",
+        "modificador": "BRL",
+        "valor": "18000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BRL",
+        "valor": "800.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-fisiote",
+        "nome": "Fisioterapia (prescrição médica)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-atrasos",
+        "nome": "Reembolso de gastos por demora de bagagem extraviada",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Extensão de Internação Hospitalar",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação Administrative",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Interrupção De Viagem",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      }
+    ]
+  },
+  {
+    "nome_plano": "Brasil ",
+    "tipo_de_seguro": "padrao",
+    "apelido": "coris_brasil-_MjM0OSAxMjM2MzQwNTU5LjA",
+    "preco_em_reais": "32.34",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/41/preview/qbe.png",
+    "seguradora_nome": "Qbe",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/41/preview/aprilcoris.png",
+    "assistencia_nome": "CORIS",
+    "idade_minima": 0,
+    "idade_maxima": 75,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Assistência Médica por Enfermidade Pré-existente",
+        "modificador": "BRL",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Assistência Farmacêutica (por evento)",
+        "modificador": "BRL",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Assistência Odontológica (por evento)",
+        "modificador": "BRL",
+        "valor": "250.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Convalescença em hotel",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Estadia de familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Regresso de Menor e Idoso Desacompanhado",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-ret-ant",
+        "nome": "Interrupção de viagem (Titular/Acompanhante)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência Jurídica por acidente de trânsito",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Remessa de valor para fiança judicial por acidente de trânsito",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação Sanitária",
+        "modificador": "BRL",
+        "valor": "60000.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Seguro de Invalidez permanente por acidente",
+        "modificador": "BRL",
+        "valor": "15000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento de viagem PLUS REASON",
+        "modificador": "BRL",
+        "valor": "500.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Traslado ou Substituição de executivo por emergência",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": "Gastos por atraso ou cancelamento de vôo (após 6 horas)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Passagem aérea para familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-esporte",
+        "nome": "Assistência Médica por Prática de Esportes (de lazer)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Seguro por Morte acidental",
+        "modificador": "BRL",
+        "valor": "15000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Seguro de bagagem extraviada (suplementar)",
+        "modificador": "USD",
+        "valor": "600.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Repatriação Funerária",
+        "modificador": "BRL",
+        "valor": "60000.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Assistência Médica por Acidente (por evento)",
+        "modificador": "BRL",
+        "valor": "10000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-fisiote",
+        "nome": "Fisioterapia (prescrição médica)(2)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-gestaca",
+        "nome": "Assistência Médica para Gestantes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Assistência Médica por Acidente/Enfermidade para atendimento no Brasil",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Remoção em Caso de Emergência (2)",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Extensão da Internação Hospitalar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "c-atr-voo",
+        "nome": "Reembolso de gastos por demora de bagagem extraviada (após 6 horas)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Evacuação/Transporte emergencial não médico",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "f-juridic",
+        "nome": "Responsabilidade Civil Internacional",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "f-juridic",
+        "nome": "Cobertura de propriedade",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      }
+    ]
+  },
+  {
+    "nome_plano": "Brasil Plus ",
+    "tipo_de_seguro": "padrao",
+    "apelido": "coris_brasil-plus-_MjM1MCAxMjM2MzQwNTU5LjA",
+    "preco_em_reais": "48.51",
+    "seguradora_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/41/preview/qbe.png",
+    "seguradora_nome": "Qbe",
+    "assistencia_logo": "https://d2co66ly98117g.cloudfront.net/fornecedores/logo/41/preview/aprilcoris.png",
+    "assistencia_nome": "CORIS",
+    "idade_minima": 0,
+    "idade_maxima": 75,
+    "propriedades": [
+      { },
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-pre-ext",
+        "nome": "Assistência Médica por Enfermidade Pré-existente",
+        "modificador": "BRL",
+        "valor": "2000.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-farmace",
+        "nome": "Assistência Farmacêutica (por evento)",
+        "modificador": "BRL",
+        "valor": "300.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-odontol",
+        "nome": "Assistência Odontológica (por evento)",
+        "modificador": "BRL",
+        "valor": "250.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Convalescença em hotel",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-familia",
+        "nome": "Estadia de familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-menores",
+        "nome": "Regresso de Menor e Idoso Desacompanhado",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-ret-ant",
+        "nome": "Interrupção de viagem (Titular/Acompanhante)",
+        "modificador": "USD",
+        "valor": "600.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-juridic",
+        "nome": "Assistência Jurídica por acidente de trânsito",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "financeiro",
+        "codigo": "f-fiancas",
+        "nome": "Remessa de valor para fiança judicial por acidente de trânsito",
+        "modificador": "BRL",
+        "valor": "3000.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-san",
+        "nome": "Repatriação Sanitária",
+        "modificador": "BRL",
+        "valor": "60000.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "comunicacao ",
+        "codigo": "t-mensage",
+        "nome": "Transmissão de mensagem urgente",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      { },
+      { },
+      { },
+      { },
+      {
+        "grupo": "seguro",
+        "codigo": "s-inv-per",
+        "nome": "Seguro de Invalidez permanente por acidente",
+        "modificador": "BRL",
+        "valor": "15000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-cancela",
+        "nome": "Cancelamento de viagem PLUS REASON",
+        "modificador": "BRL",
+        "valor": "1000.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-executi",
+        "nome": "Traslado ou Substituição de executivo por emergência",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-atr-voo",
+        "nome": "Gastos por atraso ou cancelamento de vôo (após 6 horas)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "t-aer-fam",
+        "nome": "Passagem aérea para familiar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-esporte",
+        "nome": "Assistência Médica por Prática de Esportes (de lazer)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "seguro",
+        "codigo": "s-mor-aci",
+        "nome": "Seguro por Morte acidental",
+        "modificador": "BRL",
+        "valor": "15000.0"
+      },
+      {
+        "grupo": "bagagem",
+        "codigo": "b-extravi",
+        "nome": "Seguro de bagagem extraviada (suplementar)",
+        "modificador": "BRL",
+        "valor": "1200.0"
+      },
+      {
+        "grupo": "seguro",
+        "codigo": "s-rep-fun",
+        "nome": "Repatriação Funerária",
+        "modificador": "BRL",
+        "valor": "60000.0"
+      },
+      { },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-med-enf",
+        "nome": "Assistência Médica por Acidente (por evento)",
+        "modificador": "BRL",
+        "valor": "20000.0"
+      },
+      {
+        "grupo": "cancelamento ",
+        "codigo": "c-via-reg",
+        "nome": "Garantia de viagem de regresso",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-fisiote",
+        "nome": "Fisioterapia (prescrição médica)(2)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      { },
+      { },
+      {
+        "grupo": "assistencia-especial",
+        "codigo": "e-gestaca",
+        "nome": "Assistência Médica para Gestantes",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Assistência Médica por Acidente/Enfermidade para atendimento no Brasil",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Remoção em Caso de Emergência (2)",
+        "modificador": "BOOL",
+        "valor": "1.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "o-repouso",
+        "nome": "Extensão da Internação Hospitalar",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "c-atr-voo",
+        "nome": "Reembolso de gastos por demora de bagagem extraviada (após 6 horas)",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "assistencia-medica",
+        "codigo": "a-tra-enf",
+        "nome": "Evacuação/Transporte emergencial não médico",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "f-juridic",
+        "nome": "Responsabilidade Civil Internacional",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      },
+      {
+        "grupo": "outros",
+        "codigo": "f-juridic",
+        "nome": "Cobertura de propriedade",
+        "modificador": "BOOL",
+        "valor": "0.0"
+      }
+    ]
+  }
+]

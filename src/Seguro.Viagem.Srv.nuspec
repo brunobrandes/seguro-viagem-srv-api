@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Seguro.Viagem.Srv.Api</id>
+        <version>1.0.0.9</version>
+        <title>Seguro.Viagem.Srv.Api</title>
+        <authors>Bruno Brandes</authors>
+        <owners>Bruno Brandes</owners>
+        <licenseUrl>https://github.com/brunobrandes/seguro-viagem-srv-api</licenseUrl>
+        <projectUrl>https://github.com/brunobrandes/seguro-viagem-srv-api</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A C# wrapper for the Seguro Viagem Srv Api</description>
+        <releaseNotes>Budget request (with lead tag) an info product travelers.</releaseNotes>
+        <copyright>Bruno Brandes</copyright>
+        <language>pt-BR</language>
+        <dependencies>
+            <group targetFramework=".NETFramework4.6.1">
+                <dependency id="Newtonsoft.Json" version="8.0.3" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Domain\Seguro.Viagem.Srv.DataTransferObject\bin\Release\Seguro.Viagem.Srv.DataTransferObject.dll" target="lib\net461\Seguro.Viagem.Srv.DataTransferObject.dll" />
+        <file src="Domain\Seguro.Viagem.Srv.DataTransferObject\bin\Release\Seguro.Viagem.Srv.DataTransferObject.pdb" target="lib\net461\Seguro.Viagem.Srv.DataTransferObject.pdb" />
+        <file src="Domain\Seguro.Viagem.Srv.Domain.Enum\bin\Release\Seguro.Viagem.Srv.Domain.Enum.dll" target="lib\net461\Seguro.Viagem.Srv.Domain.Enum.dll" />
+        <file src="Domain\Seguro.Viagem.Srv.Domain.Enum\bin\Release\Seguro.Viagem.Srv.Domain.Enum.pdb" target="lib\net461\Seguro.Viagem.Srv.Domain.Enum.pdb" />
+        <file src="Domain\Seguro.Viagem.Srv.Domain.Service\bin\Release\Seguro.Viagem.Srv.Domain.Service.dll" target="lib\net461\Seguro.Viagem.Srv.Domain.Service.dll" />
+        <file src="Domain\Seguro.Viagem.Srv.Domain.Service\bin\Release\Seguro.Viagem.Srv.Domain.Service.pdb" target="lib\net461\Seguro.Viagem.Srv.Domain.Service.pdb" />
+    </files>
+</package>
